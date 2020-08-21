@@ -1,7 +1,12 @@
+.PHONY: build
+
+clean:
+	rm -rf build/ dist/ singer_target_mysql.egg-info
+
 install:
 	pip install -r build_requirements.txt
 
-build:
+build: clean
 	python3 setup.py sdist bdist_wheel
 
 upload:
