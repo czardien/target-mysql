@@ -6,10 +6,7 @@ A [singer.io](https://www.singer.io/) target implementation for MySQL. Because s
 
 ## Roadmap
 
-- [ ] Read input until EOF
-- [ ] Python wheel to Pypi setup
 - [ ] MySQL connection from config file setup
-- [ ] Read input until EOF
 - [ ] Record message handling
   - [ ] Assert JSON structure
   - [ ] Assert `"schema"` field maps internal known schemas structure
@@ -17,3 +14,6 @@ A [singer.io](https://www.singer.io/) target implementation for MySQL. Because s
 - [ ] Schema message handling
   - [ ] Assert JSON structure
   - [ ] Create table if not exists SQL statements
+- [ ] State message handling
+  - [ ] Assert JSON structure
+  - [ ] Emit state to stdout
