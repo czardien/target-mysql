@@ -1,6 +1,6 @@
 # target-mysql :rocket: :boom:
 
-Because some of us still have to deal with a MySQL data warehouse.
+A [singer.io](https://www.singer.io/) target implementation for MySQL. Because some of us still have to deal with a MySQL data warehouse.
 
 **Under active development like there's no code a barely a roadmap for now**
 
